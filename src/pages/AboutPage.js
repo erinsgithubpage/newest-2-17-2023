@@ -27,7 +27,9 @@ const AboutPage = () => {
                 <dd className="col-6">2020</dd>
                 <dt className="col-6">No. of Happy Clients</dt>
                 <dd className="col-6">7</dd>
-                <dt className="col-6">Monetary Value of Services</dt>
+                <dt className="col-6">
+                  Monetary Value of Services through Volunteering
+                </dt>
                 <dd className="col-6">$69,035</dd>
               </dl>
             </CardBody>
@@ -38,23 +40,16 @@ const AboutPage = () => {
             <CardBody>
               <blockquote className="blockquote">
                 <p>
-                Life's most persistent and urgent question is, 'What are you doing for others?'
+                  Life's most persistent and urgent question is, 'What are you
+                  doing for others?'
                 </p>
                 <footer className="blockquote-footer">
-                Martin Luther King, Jr.{" "}
-                  <cite title="Source Title">
-                   </cite>
+                  Martin Luther King, Jr. <cite title="Source Title"></cite>
                 </footer>
               </blockquote>
             </CardBody>
           </Card>
         </Col>
-      </Row>
-      <Row className="row-content">
-        <Col xs="12">
-          <h3>Community Partners</h3>
-        </Col>
-        {/*<PartnersList />*/}
       </Row>
     </Container>
   );
