@@ -1,26 +1,42 @@
-import { 
-    Navbar, 
-    NavbarBrand,
-    Collapse,
-    NavbarToggler,
-    Nav, 
-    NavItem,
-    Container,
-    Row
-} from 'reactstrap';
-import React from 'react';
+import {
+  Navbar,
+  NavbarBrand,
+  Collapse,
+  NavbarToggler,
+  Nav,
+  NavItem,
+  Container,
+  Row,
+} from "reactstrap";
+import React from "react";
 
 const ShortBio = () => {
-    //const [ShortBio] = useState(false);
+  //const [ShortBio] = useState(false);
 
-    return (
-        <Container>
-            <Row>
-                <h5><p class="bio">I'm <b>Erin</b>, a practicing Front-End and WordPress Developer that has experience in various programming languages, such as HTML5, CSS3, JavaScript, Python, C++, C, Java, and PHP, along with the widely popular CMS commonly referred to as WordPress. I use libraries such as React.js to create responsive Web applications. In addition, I have dabbled in Penetration Testing, thus marking a great stride in securing Web pages for my clients. </p><br />
-                 <p class="bio">I am currently a student at NuCamp Coding Boot Camp studying Full Stack Web and Mobile Development. The course curriculum includes: Bootstrap, JavaScript, React, React Native, Git, and Google Cloud Computing.</p></h5>
-            </Row>
-            <Row>
-                {/*<div class="social-icons">
+  return (
+    <Container>
+      <Row>
+        <h5>
+          <p class="bio">
+            I'm <b>Erin</b>, a practicing Front-End and WordPress Developer that
+            has experience in various programming languages, such as HTML5,
+            CSS3, JavaScript, Python, C++, C, Java, and PHP, along with the
+            widely popular CMS commonly referred to as WordPress. I use
+            libraries such as React.js to create responsive web applications. In
+            addition, I have dabbled in Penetration Testing, thus marking a
+            great stride in securing web pages for my clients.{" "}
+          </p>
+          <br />
+          <p class="bio">
+            I am currently a student at NuCamp Coding Boot Camp studying Full
+            Stack Web and Mobile Development. The course curriculum includes:
+            Bootstrap, JavaScript, React, React Native, Git, and Google Cloud
+            Computing.
+          </p>
+        </h5>
+      </Row>
+      <Row>
+        {/*<div class="social-icons">
                     <a href="https://www.facebook.com/profile.php?id=100081191235958" target="blank"><i class="fa fa-facebook"></i></a>
                     <a href="https://twitter.com/erinswebdesign" target="blank"><i class="fa fa-twitter"></i></a>
                     <a href="https://www.linkedin.com/company/web-design-services-online/about/?viewAsMember=true" target="blank"><i class="fa fa-linkedin"></i></a>
@@ -30,11 +46,10 @@ const ShortBio = () => {
                         <a class="main-btn" href="https://erinh30.sg-host.com/WordPress-2.pdf" target="blank" download>Download CV</a>
                     </span>
     </div>*/}
-                <br></br>
-            </Row>
-            <Row>
-          
-            {/*<div class="slideshow-container">
+        <br></br>
+      </Row>
+      <Row>
+        {/*<div class="slideshow-container">
 
    
                 <div class="mySlides">
@@ -60,10 +75,9 @@ const ShortBio = () => {
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
 </div>*/}
-            </Row>
-        </Container>
-      
-    );
+      </Row>
+    </Container>
+  );
 };
 
 export default ShortBio;
